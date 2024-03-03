@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+#mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.superhero {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.superhero img {
+    max-width: 100px;
+}
+
+.superhero h2 {
+    margin: 10px 0;
+}
+
+.favoriteBtn {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.favoriteBtn:hover {
+    background-color: #0056b3;
+}
+
+.superhero-info {
+    max-width: 1000px;
+}
